@@ -12,7 +12,6 @@ This project is an **AI-powered autonomous news agent** that **automatically** f
 ✅ **Optimizes content for SEO**.  
 ✅ **Publishes news automatically** on a web app.  
 ✅ **Generates AI-powered images** to enhance news content.  
-✅ **Supports multilingual translation (Optional Feature)**.  
 ✅ **Tracks user engagement (Optional Feature)**.  
 
 ---
@@ -158,14 +157,11 @@ The final news articles will be stored in `News.json`:
 ```
 
 ---
-
 ## 🎯 Future Improvements
 ✅ **Advanced NLP**: Improve summarization with better LLMs  
-✅ **Better SEO**: Enhance metadata, keywords for ranking  
 ✅ **User Metrics**: Track views, shares, and engagement  
 ✅ **Multilingual Support**: Translate news into multiple languages  
 ✅ **Automated Image Generation**: Generate visuals for news  
-
 ---
 
 ## 📜 License
