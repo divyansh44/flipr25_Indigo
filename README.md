@@ -40,13 +40,13 @@ git clone https://github.com/divyansh44/flipr25_Indigo.git
 
 ## 🖥 Backend Setup (Flask API)
 ### **2️⃣ Creating a Virtual Environment**
-Using **Conda** (Recommended):
+Using **Conda** :
 ```bash
 conda create --name news_env python=3.8 -y
 conda activate news_env
 ```
 
-Using **venv**:
+Using **venv**(Recommended):
 ```bash
 python -m venv news_env
 source news_env/bin/activate  # macOS/Linux
@@ -62,13 +62,17 @@ pip install -r requirements.txt
 ### **4️⃣ Configuring API Keys**
 Update the **`configs.yaml`** file with:
 ```yaml
-topic: "Technology"
-location: "Delhi, India"
+location: "Delhi"
+topic: "Technology News"
+
 ```
 Set up API keys inside `config.py`:
 ```python
 gemini_api_key = "your-gemini-api-key"
 serp_api_key = "your-serp-api-key"
+serp_api_key = "your-api-key"
+imgBB_api_key=""
+
 ```
 
 ### **5️⃣ Running the Flask Backend**
@@ -85,54 +89,19 @@ The backend will start at `http://127.0.0.1:5000/`.
 ```bash
 cd frontend
 npm install
+
 ```
 
 ### **7️⃣ Running the React Frontend**
 ```bash
 npm run dev
 ```
-The frontend will be available at `http://localhost:3000/`.
+The frontend will be available at `http://localhost:5173/`.
 
 ---
 
-## 🚀 Running the Autonomous News Agent
-To fetch, process, summarize, and classify news articles:
-```bash
-python main.py
-```
-This script will:
-1. **Fetch news** articles based on location & topic.
-2. **Summarize** & classify them.
-3. **Store** them in `News.json`.
 
-### 🔄 Merging New News Data
-To merge newly fetched news:
-```bash
-python -c "from your_script import merge_and_save_news; merge_and_save_news()"
-```
 
----
-
-## 📂 Project Structure
-```
----
-
-## 📌 Expected Output
-The final news articles will be stored in `News.json`:
-```json
-[
-    {
-        "title": "AI Revolutionizes Technology",
-        "text": "AI is transforming industries...",
-        "category": "Technology"
-    },
-    {
-        "title": "Political Changes in 2025",
-        "text": "Recent elections bring new reforms...",
-        "category": "Politics"
-    }
-]
-```
 
 ---
 ## 🎯 Future Improvements
