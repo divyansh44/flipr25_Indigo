@@ -70,8 +70,8 @@ Set up API keys inside `config.py`:
 ```python
 gemini_api_key = "your-gemini-api-key"
 serp_api_key = "your-serp-api-key"
-serp_api_key = "your-api-key"
-imgBB_api_key=""
+imgBB_api_key = "your-imgBB-api-key"
+
 
 ```
 
