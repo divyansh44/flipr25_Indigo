@@ -107,8 +107,7 @@ The frontend will be available at `http://localhost:5173/`.
 ## 🎯 Future Improvements
 ✅ **Advanced NLP**: Improve summarization with better LLMs  
 ✅ **User Metrics**: Track views, shares, and engagement  
-✅ **Multilingual Support**: Translate news into multiple languages  
-✅ **Automated Image Generation**: Generate visuals for news  
+✅ **Multilingual Support**: Translate news into multiple languages   
 ---
 
 ## 📜 License
