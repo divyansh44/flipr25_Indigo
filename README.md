@@ -115,28 +115,6 @@ python -c "from your_script import merge_and_save_news; merge_and_save_news()"
 
 ## 📂 Project Structure
 ```
-project-root/
-│-- frontend/                  # React Frontend
-│   ├── src/
-│   │   ├── components/        # React components
-│   │   ├── assets/            # Static assets (images, CSS, etc.)
-│   │   ├── App.js
-│   │   ├── index.js
-│   ├── public/                # Static files
-│   ├── package.json
-│   ├── README.md
-│-- backend/                   # Flask Backend
-│   ├── server.py              # Flask server
-│   ├── app.py                 # Main application logic
-│   ├── routes.py              # API endpoints
-│   ├── config.py              # API keys & settings
-│   ├── requirements.txt       # Dependencies
-│-- configs.yaml                # News topic & location config
-│-- main.py                      # News Fetching & Summarization Pipeline
-│-- News.json                    # Processed news storage
-│-- README.md                    # Documentation
-```
-
 ---
 
 ## 📌 Expected Output
