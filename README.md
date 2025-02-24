@@ -2,6 +2,7 @@
 
 ## 🚀 Overview
 This project is an **AI-powered autonomous news agent** that **automatically** fetches, summarizes, and publishes news articles on various topics. It ensures **relevance and reliability** by fetching multiple sources, verifying content, and generating **fact-checked summaries**.
+![image](https://github.com/user-attachments/assets/07142275-33e9-4698-a167-2d59badd3fa1)
 
 ### **Core Features**
 ✅ **Fetches news** from multiple sources based on a location & topic.  
