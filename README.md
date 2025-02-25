@@ -19,11 +19,10 @@ This project is an **AI-powered autonomous news agent** that **automatically** f
 - **Frontend:** React.js
 - **Backend:** Flask (Python)
 - **Database:** MongoDB (Recommended) / PostgreSQL
-- **AI Models:** Open-source LLMs or APIs (Gemini, GPT-4, etc.)
-- **Web Scraping:** SerpAPI, BeautifulSoup, NewsAPI, Scrapy
+- **AI Models:** Gemini Flash 1.5
+- **Web Scraping:** SerpAPI, BeautifulSoup
 - **LLM Summarization & Merging:** Gemini API
 - **Similarity Search & Classification:** BERT embeddings
-- **Deployment:** AWS / GCP / Render / DigitalOcean
 
 ---
 
