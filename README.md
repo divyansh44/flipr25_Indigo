@@ -12,7 +12,6 @@ This project is an **AI-powered autonomous news agent** that **automatically** f
 ✅ **Optimizes content for SEO**.  
 ✅ **Publishes news automatically** on a web app.  
 ✅ **Generates AI-powered images** to enhance news content.  
-✅ **Tracks user engagement (Optional Feature)**.  
 
 ---
 
